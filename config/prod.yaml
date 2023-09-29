@@ -1,0 +1,10 @@
+env: "prod"
+storage_path: "./storage/mails.sqlite"
+email_credits:
+  send_mail_from: "example@gmail.com"
+  app_password: "qwer tyui asdf ghjk"
+
+http_server:
+  address: ":8085"
+  timeout: 4s
+  idle_timeout: 60s
